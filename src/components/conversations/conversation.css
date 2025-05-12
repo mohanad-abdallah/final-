@@ -1,0 +1,29 @@
+.conversation {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  cursor: pointer;
+  margin-top: 18px;
+}
+
+.conversation:hover {
+  background-color: #f1f1f1;
+}
+
+.conversationImg {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.conversationName {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .conversationName {
+    display: none;
+  }
+}
